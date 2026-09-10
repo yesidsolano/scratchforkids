@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scratch Programming Course for Kids | Lemniscate Académico</title>
+  <meta name="description" content="Learn to create your own video games with Scratch! Live online course for kids ages 7-14. 8 exciting sessions. Available in English. Worldwide enrollment.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Fredoka:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  <!-- Language Switcher -->
+  <div class="lang-switcher">
+    <button class="lang-btn active" data-lang="es">ES</button>
+    <button class="lang-btn" data-lang="en">EN</button>
+    <button class="lang-btn" data-lang="ja">JA</button>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <span class="logo-icon">🐱</span>
+        <span class="logo-text">Lemniscate</span>
+      </div>
+      <nav class="nav">
+        <a href="#about" data-i18n="nav_about">Sobre el curso</a>
+        <a href="#learn" data-i18n="nav_learn">Qué aprenderás</a>
+        <a href="#content" data-i18n="nav_content">Contenido</a>
+        <a href="#team" data-i18n="nav_team">Equipo</a>
+        <a href="#enroll" class="btn-nav" data-i18n="nav_enroll">Inscribirme</a>
+      </nav>
+      <button class="menu-toggle" aria-label="Menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="container hero-content">
+      <div class="hero-badge" data-i18n="hero_badge">🌍 Para niños de todo el mundo • 7 a 14 años</div>
+      <h1 data-i18n="hero_title">¡Programa tu primer<br><span class="highlight">videojuego</span> desde cero!</h1>
+      <p class="hero-subtitle" data-i18n="hero_subtitle">Curso virtual en vivo de Programación con Scratch. 8 sesiones emocionantes de 90 minutos donde los niños crean sus propios videojuegos mientras aprenden los fundamentos de la programación.</p>
+      <div class="hero-cta">
+        <a href="https://forms.gle/RMVewoaJsrEVCAHn8" target="_blank" class="btn btn-primary" data-i18n="hero_cta">Inscribirme ahora</a>
+        <a href="#about" class="btn btn-secondary" data-i18n="hero_more">Conocer más</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number">8</span>
+          <span class="stat-label" data-i18n="stat_sessions">Sesiones</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">90</span>
+          <span class="stat-label" data-i18n="stat_minutes">min cada una</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">24h</span>
+          <span class="stat-label" data-i18n="stat_cert">Certificables</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">EN</span>
+          <span class="stat-label" data-i18n="stat_lang">Idioma principal</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="floating-block block-1">🧩</div>
+      <div class="floating-block block-2">🎮</div>
+      <div class="floating-block block-3">🚀</div>
+      <div class="floating-block block-4">⭐</div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section about">
+    <div class="container">
+      <div class="section-header">
+        <h2 data-i18n="about_title">¿Qué es este curso?</h2>
+        <p data-i18n="about_desc">Una aventura de programación diseñada especialmente para niños. A través de Scratch, el lenguaje de bloques del MIT, los participantes crean videojuegos reales mientras desarrollan pensamiento lógico, creatividad y confianza tecnológica.</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="card-icon">🖥️</div>
+          <h3 data-i18n="about_card1_title">100% Virtual en vivo</h3>
+          <p data-i18n="about_card1_desc">Sesiones sincrónicas por Zoom + acceso a plataforma con materiales. Interactúa en tiempo real con el instructor y compañeros de todo el mundo.</p>
+        </div>
+        <div class="about-card">
+          <div class="card-icon">🕐</div>
+          <h3 data-i18n="about_card2_title">Horarios flexibles</h3>
+          <p data-i18n="about_card2_desc">Inscripciones permanentes. Una vez inscrito, eliges el horario que mejor se adapte a la zona horaria de tu país.</p>
+        </div>
+        <div class="about-card">
+          <div class="card-icon">🎯</div>
+          <h3 data-i18n="about_card3_title">Aprende haciendo</h3>
+          <p data-i18n="about_card3_desc">Cada clase está orientada a crear proyectos reales. Al final del curso los niños habrán desarrollado varios videojuegos propios.</p>
+        </div>
+        <div class="about-card">
+          <div class="card-icon">📜</div>
+          <h3 data-i18n="about_card4_title">Certificado incluido</h3>
+          <p data-i18n="about_card4_desc">24 horas certificables. Al completar el curso y el challenge final, reciben su certificado de finalización.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What you'll learn -->
+  <section id="learn" class="section learn">
+    <div class="container">
+      <div class="section-header">
+        <h2 data-i18n="learn_title">Habilidades que desarrollarán</h2>
+        <p data-i18n="learn_desc">Más allá de programar, los niños adquieren herramientas para la vida digital.</p>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon">🎨</div>
+          <h3 data-i18n="skill1_title">Creatividad digital</h3>
+          <p data-i18n="skill1_desc">Diseñarán sus propios sprites, escenarios y animaciones, dando vida a personajes e historias únicas.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🧠</div>
+          <h3 data-i18n="skill2_title">Pensamiento computacional</h3>
+          <p data-i18n="skill2_desc">Aprenderán a planificar, secuenciar y resolver problemas usando lógica y recursos digitales.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🔄</div>
+          <h3 data-i18n="skill3_title">Estructuras de control</h3>
+          <p data-i18n="skill3_desc">Dominarán bucles, condiciones y eventos: las mismas bases que usan los programadores profesionales.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">📚</div>
+          <h3 data-i18n="skill4_title">Recursos gráficos</h3>
+          <p data-i18n="skill4_desc">Explorarán bibliotecas de Scratch e imágenes externas para enriquecer proyectos con música y efectos.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🎮</div>
+          <h3 data-i18n="skill5_title">Trabajo por proyectos</h3>
+          <p data-i18n="skill5_desc">Desarrollarán su propio videojuego aplicando todo lo aprendido paso a paso.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">💪</div>
+          <h3 data-i18n="skill6_title">Autonomía y confianza</h3>
+          <p data-i18n="skill6_desc">Ganarán seguridad al crear, experimentar y compartir proyectos en un entorno seguro y motivador.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Course Content -->
+  <section id="content" class="section content">
+    <div class="container">
+      <div class="section-header">
+        <h2 data-i18n="content_title">Contenido del curso</h2>
+        <p data-i18n="content_desc">8 clases cargadas de aprendizajes emocionantes. Cada una construye sobre la anterior hasta crear videojuegos completos.</p>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-number">1</div>
+          <div class="timeline-content">
+            <h3 data-i18n="class1_title">Diseño de Sprites</h3>
+            <p data-i18n="class1_desc">Bienvenida, creación de cuenta en Scratch y diseño de personajes propios usando recursos digitales.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-number">2</div>
+          <div class="timeline-content">
+            <h3 data-i18n="class2_title">Movimiento y Sensores</h3>
+            <p data-i18n="class2_desc">Navegación por categorías de bloques, concepto de sensores y estructuras condicionales simples.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-number">3</div>
+          <div class="timeline-content">
+            <h3 data-i18n="class3_title">Uso de variables</h3>
+            <p data-i18n="class3_desc">Creación de un videojuego divertido aplicando variables y bucles repetitivos.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-number">4</div>
+          <div class="timeline-content">
+            <h3 data-i18n="class4_title">Eventos y fondos</h3>
+            <p data-i18n="class4_desc">Eventos en programación, creación de fondos personalizados y tercer videojuego publicado.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-number">5</div>
+          <div class="timeline-content">
+            <h3 data-i18n="class5_title">Uso de clones</h3>
+            <p data-i18n="class5_desc">Emocionante videojuego de aeronaves, clones en Scratch y galería de recursos externos.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-number">6</div>
+          <div class="timeline-content">
+            <h3 data-i18n="class6_title">Funciones y otros bloques</h3>
+            <p data-i18n="class6_desc">Concepto de funciones, animaciones en tiempo de ejecución y nueva carpeta de recursos.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-number">7</div>
+          <div class="timeline-content">
+            <h3 data-i18n="class7_title">Proyecto integrador</h3>
+            <p data-i18n="class7_desc">Mensajes entre sprites, personalización de escenarios y final personalizado del proyecto.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-number">8</div>
+          <div class="timeline-content">
+            <h3 data-i18n="class8_title">Microcontroladores y robots</h3>
+            <p data-i18n="class8_desc">Programación de microcontrolador, challenge con robot digital y certificado de finalización.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section class="section how">
+    <div class="container">
+      <div class="section-header">
+        <h2 data-i18n="how_title">¿Cómo funciona?</h2>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="step-number">1</div>
+          <h3 data-i18n="step1_title">Inscríbete</h3>
+          <p data-i18n="step1_desc">Completa el formulario de inscripción. Las inscripciones son permanentes y el acceso a la plataforma es inmediato.</p>
+        </div>
+        <div class="step">
+          <div class="step-number">2</div>
+          <h3 data-i18n="step2_title">Elige tu horario</h3>
+          <p data-i18n="step2_desc">Según la zona horaria de tu país, selecciona el grupo que mejor se adapte a tu disponibilidad.</p>
+        </div>
+        <div class="step">
+          <div class="step-number">3</div>
+          <h3 data-i18n="step3_title">¡A programar!</h3>
+          <p data-i18n="step3_desc">Únete a las sesiones en vivo por Zoom, crea proyectos y recibe acompañamiento del equipo docente.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section id="team" class="section team">
+    <div class="container">
+      <div class="section-header">
+        <h2 data-i18n="team_title">Conoce al equipo</h2>
+      </div>
+      <div class="team-grid">
+        <div class="team-card">
+          <div class="team-avatar">YS</div>
+          <h3>Mg. Yesid Solano</h3>
+          <p class="team-role" data-i18n="team1_role">Facilitador Tecnológico Virtual</p>
+          <p data-i18n="team1_desc">Ingeniero Industrial, Especialista en Pedagogía, Magíster en TIC para la Educación y Docente de Tecnología y Robótica. Desarrolla entornos educativos virtuales y te acompañará en todo el proceso.</p>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar">VV</div>
+          <h3>Vanessa Vizcaíno</h3>
+          <p class="team-role" data-i18n="team2_role">Gestora de contenidos</p>
+          <p data-i18n="team2_desc">Gestora de Talento Humano, programadora de Sistemas Informáticos y apasionada por el desarrollo de habilidades de pensamiento computacional en niños y jóvenes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="section testimonials">
+    <div class="container">
+      <div class="section-header">
+        <h2 data-i18n="test_title">Lo que dicen las familias</h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p data-i18n="test1">“Mi niño está feliz diseñando sus propios Sprites con las herramientas que aprendió en el curso. Terminó siendo más completo de lo que esperábamos.”</p>
+          <span class="test-author">— Padre de estudiante</span>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p data-i18n="test2">“Mi niño nunca había tenido contacto con Scratch, pero en tan solo 8 sesiones ya desarrolla videojuegos maravillosos.”</p>
+          <span class="test-author">— Madre de estudiante</span>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p data-i18n="test3">“Soy docente y realicé este curso junto a mi niña. Ahora ambas aplicamos lo aprendido en el colegio. ¡10 de 10!”</p>
+          <span class="test-author">— Docente y madre</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section id="enroll" class="section cta-final">
+    <div class="container">
+      <h2 data-i18n="cta_title">¿Listo para que tu hijo cree su primer videojuego?</h2>
+      <p data-i18n="cta_desc">Inscripciones permanentes. Elige el horario según tu zona horaria. Curso en inglés con acompañamiento cercano.</p>
+      <a href="https://forms.gle/RMVewoaJsrEVCAHn8" target="_blank" class="btn btn-primary btn-large" data-i18n="cta_button">Inscribirme ahora →</a>
+      <p class="cta-note" data-i18n="cta_note">Edades 7-14 años • Modalidad 100% virtual en vivo • Certificado incluido</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <span class="logo-icon">🐱</span>
+          <span>Lemniscate Académico</span>
+        </div>
+        <p data-i18n="footer_text">Formando a la próxima generación de creadores digitales.</p>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Lemniscate Académico. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
